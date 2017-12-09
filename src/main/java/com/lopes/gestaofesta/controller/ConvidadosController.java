@@ -8,7 +8,7 @@ public class ConvidadosController {
 
 	@GetMapping("/convidados")
 	public String listar() {
-		return "listaconvidados";
+		return "ListaConvidados";
 	}
 
 }
