@@ -5,17 +5,42 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width" />
 <title>Lista de Convidados</title>
-<link rel='stylesheet' href='@{/webjars/bootstrap/css/bootstrap.min.css}'>
-<link rel='stylesheet' href='@{/webjars/bootstrap/css/bootstrap-theme.min.css}'>
-
+<link rel='stylesheet'	href='@{/webjars/bootstrap/css/bootstrap.min.css}'>
+<link rel='stylesheet'	href='@{/webjars/bootstrap/css/bootstrap-theme.min.css}'>
 </head>
 <body>
 	<div class="container">
-	<h1>Gestão de festas!</h1>
-	
+		<h1>Gestão de festas!</h1>
+		<div class="panel panel-default" style="margin: 10px;">
+			<div class="panel-heading">
+				<h2 class="panel-title">Lista de Convidados</h2>
+			</div>
+
+			<div class="panel-body">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Acompanhantes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Aninha</td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td>Helena</td>
+							<td>4</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
-	
+
+</body>
+
 	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 	<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
-</body>
 </html>
