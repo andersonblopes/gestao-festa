@@ -25,14 +25,10 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td>Aninha</td>
-							<td>5</td>
+						<tr th:each="convidado : ${convidados}">
+							<td th:text="${convidado.nome}"></td>
+							<td th:text="${convidado.quantidadeAcompanhantes}"></td>
 						</tr>
-						<tr>
-							<td>Helena</td>
-							<td>4</td>
-						</tr>					
 					</tbody>
 				</table>
 			</div>
